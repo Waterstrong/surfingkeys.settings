@@ -18,3 +18,8 @@ iunmap('<Alt-d>');
 // add a keystroke mapping for Insert mode
 imap('<Ctrl-c>', "<Esc>");
 
+// add a keystroke mapping for Visual mode
+vmap('<Ctrl-c>', "<Esc>")
+
+// add a keystroke mapping for Omnibar mode
+cmap('<Ctrl-c>', "<Esc>")
